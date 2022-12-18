@@ -1,0 +1,36 @@
+{
+  "name": "itquelle/open-ai-chatgpt-php",
+  "description": "PHP OpenAI API",
+  "type": "library",
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "5.6.* || 5.7.* || 5.8.* || 6.0.*",
+    "ext-curl": "*"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Stevie-Ray",
+      "email": "stevie@itquelle.de"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "RandomPassword\\": "src/OpenAIApi/"
+    },
+    "files": [
+      "src/OpenAIApi/Api.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "OpenAIApi\\ApiServiceProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.8"
+  }
+}
