@@ -1,6 +1,9 @@
 # open-ai chat-gpt php api
 Use OpenAi.com API
 
+## Learn more about Open-AI API
+https://beta.openai.com/docs/api-reference/introduction
+
 ## Installation
 This project using composer.
 ```
